@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B227CEDC28D8E4EA002CCD14 /* POCtvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227CEDB28D8E4EA002CCD14 /* POCtvOSApp.swift */; };
+		B227CEDE28D8E4EA002CCD14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227CEDD28D8E4EA002CCD14 /* ContentView.swift */; };
+		B227CEE028D8E4EB002CCD14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B227CEDF28D8E4EB002CCD14 /* Assets.xcassets */; };
+		B227CEE328D8E4EB002CCD14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B227CEE228D8E4EB002CCD14 /* Preview Assets.xcassets */; };
+		B227CEED28D8E4EC002CCD14 /* POCtvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227CEEC28D8E4EC002CCD14 /* POCtvOSTests.swift */; };
+		B227CEF728D8E4EC002CCD14 /* POCtvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227CEF628D8E4EC002CCD14 /* POCtvOSUITests.swift */; };
+		B227CEF928D8E4EC002CCD14 /* POCtvOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227CEF828D8E4EC002CCD14 /* POCtvOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B227CEE928D8E4EC002CCD14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B227CED028D8E4EA002CCD14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B227CED728D8E4EA002CCD14;
+			remoteInfo = POCtvOS;
+		};
+		B227CEF328D8E4EC002CCD14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B227CED028D8E4EA002CCD14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B227CED728D8E4EA002CCD14;
+			remoteInfo = POCtvOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B227CED828D8E4EA002CCD14 /* POCtvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCtvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B227CEDB28D8E4EA002CCD14 /* POCtvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCtvOSApp.swift; sourceTree = "<group>"; };
+		B227CEDD28D8E4EA002CCD14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B227CEDF28D8E4EB002CCD14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B227CEE228D8E4EB002CCD14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B227CEE828D8E4EC002CCD14 /* POCtvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCtvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B227CEEC28D8E4EC002CCD14 /* POCtvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCtvOSTests.swift; sourceTree = "<group>"; };
+		B227CEF228D8E4EC002CCD14 /* POCtvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCtvOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B227CEF628D8E4EC002CCD14 /* POCtvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCtvOSUITests.swift; sourceTree = "<group>"; };
+		B227CEF828D8E4EC002CCD14 /* POCtvOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCtvOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B227CED528D8E4EA002CCD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B227CEE528D8E4EC002CCD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B227CEEF28D8E4EC002CCD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B227CECF28D8E4EA002CCD14 = {
+			isa = PBXGroup;
+			children = (
+				B227CEDA28D8E4EA002CCD14 /* POCtvOS */,
+				B227CEEB28D8E4EC002CCD14 /* POCtvOSTests */,
+				B227CEF528D8E4EC002CCD14 /* POCtvOSUITests */,
+				B227CED928D8E4EA002CCD14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B227CED928D8E4EA002CCD14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B227CED828D8E4EA002CCD14 /* POCtvOS.app */,
+				B227CEE828D8E4EC002CCD14 /* POCtvOSTests.xctest */,
+				B227CEF228D8E4EC002CCD14 /* POCtvOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B227CEDA28D8E4EA002CCD14 /* POCtvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B227CEDB28D8E4EA002CCD14 /* POCtvOSApp.swift */,
+				B227CEDD28D8E4EA002CCD14 /* ContentView.swift */,
+				B227CEDF28D8E4EB002CCD14 /* Assets.xcassets */,
+				B227CEE128D8E4EB002CCD14 /* Preview Content */,
+			);
+			path = POCtvOS;
+			sourceTree = "<group>";
+		};
+		B227CEE128D8E4EB002CCD14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B227CEE228D8E4EB002CCD14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B227CEEB28D8E4EC002CCD14 /* POCtvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B227CEEC28D8E4EC002CCD14 /* POCtvOSTests.swift */,
+			);
+			path = POCtvOSTests;
+			sourceTree = "<group>";
+		};
+		B227CEF528D8E4EC002CCD14 /* POCtvOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B227CEF628D8E4EC002CCD14 /* POCtvOSUITests.swift */,
+				B227CEF828D8E4EC002CCD14 /* POCtvOSUITestsLaunchTests.swift */,
+			);
+			path = POCtvOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B227CED728D8E4EA002CCD14 /* POCtvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B227CEFC28D8E4EC002CCD14 /* Build configuration list for PBXNativeTarget "POCtvOS" */;
+			buildPhases = (
+				B227CED428D8E4EA002CCD14 /* Sources */,
+				B227CED528D8E4EA002CCD14 /* Frameworks */,
+				B227CED628D8E4EA002CCD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POCtvOS;
+			productName = POCtvOS;
+			productReference = B227CED828D8E4EA002CCD14 /* POCtvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B227CEE728D8E4EC002CCD14 /* POCtvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B227CEFF28D8E4EC002CCD14 /* Build configuration list for PBXNativeTarget "POCtvOSTests" */;
+			buildPhases = (
+				B227CEE428D8E4EC002CCD14 /* Sources */,
+				B227CEE528D8E4EC002CCD14 /* Frameworks */,
+				B227CEE628D8E4EC002CCD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B227CEEA28D8E4EC002CCD14 /* PBXTargetDependency */,
+			);
+			name = POCtvOSTests;
+			productName = POCtvOSTests;
+			productReference = B227CEE828D8E4EC002CCD14 /* POCtvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B227CEF128D8E4EC002CCD14 /* POCtvOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B227CF0228D8E4EC002CCD14 /* Build configuration list for PBXNativeTarget "POCtvOSUITests" */;
+			buildPhases = (
+				B227CEEE28D8E4EC002CCD14 /* Sources */,
+				B227CEEF28D8E4EC002CCD14 /* Frameworks */,
+				B227CEF028D8E4EC002CCD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B227CEF428D8E4EC002CCD14 /* PBXTargetDependency */,
+			);
+			name = POCtvOSUITests;
+			productName = POCtvOSUITests;
+			productReference = B227CEF228D8E4EC002CCD14 /* POCtvOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B227CED028D8E4EA002CCD14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B227CED728D8E4EA002CCD14 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					B227CEE728D8E4EC002CCD14 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B227CED728D8E4EA002CCD14;
+					};
+					B227CEF128D8E4EC002CCD14 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B227CED728D8E4EA002CCD14;
+					};
+				};
+			};
+			buildConfigurationList = B227CED328D8E4EA002CCD14 /* Build configuration list for PBXProject "POCtvOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B227CECF28D8E4EA002CCD14;
+			productRefGroup = B227CED928D8E4EA002CCD14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B227CED728D8E4EA002CCD14 /* POCtvOS */,
+				B227CEE728D8E4EC002CCD14 /* POCtvOSTests */,
+				B227CEF128D8E4EC002CCD14 /* POCtvOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B227CED628D8E4EA002CCD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B227CEE328D8E4EB002CCD14 /* Preview Assets.xcassets in Resources */,
+				B227CEE028D8E4EB002CCD14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B227CEE628D8E4EC002CCD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B227CEF028D8E4EC002CCD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B227CED428D8E4EA002CCD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B227CEDE28D8E4EA002CCD14 /* ContentView.swift in Sources */,
+				B227CEDC28D8E4EA002CCD14 /* POCtvOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B227CEE428D8E4EC002CCD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B227CEED28D8E4EC002CCD14 /* POCtvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B227CEEE28D8E4EC002CCD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B227CEF728D8E4EC002CCD14 /* POCtvOSUITests.swift in Sources */,
+				B227CEF928D8E4EC002CCD14 /* POCtvOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B227CEEA28D8E4EC002CCD14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B227CED728D8E4EA002CCD14 /* POCtvOS */;
+			targetProxy = B227CEE928D8E4EC002CCD14 /* PBXContainerItemProxy */;
+		};
+		B227CEF428D8E4EC002CCD14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B227CED728D8E4EA002CCD14 /* POCtvOS */;
+			targetProxy = B227CEF328D8E4EC002CCD14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B227CEFA28D8E4EC002CCD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		B227CEFB28D8E4EC002CCD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B227CEFD28D8E4EC002CCD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POCtvOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.POCtvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		B227CEFE28D8E4EC002CCD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POCtvOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.POCtvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		B227CF0028D8E4EC002CCD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.POCtvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCtvOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POCtvOS";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		B227CF0128D8E4EC002CCD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.POCtvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCtvOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POCtvOS";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+		B227CF0328D8E4EC002CCD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.POCtvOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = POCtvOS;
+			};
+			name = Debug;
+		};
+		B227CF0428D8E4EC002CCD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.POCtvOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = POCtvOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B227CED328D8E4EA002CCD14 /* Build configuration list for PBXProject "POCtvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B227CEFA28D8E4EC002CCD14 /* Debug */,
+				B227CEFB28D8E4EC002CCD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B227CEFC28D8E4EC002CCD14 /* Build configuration list for PBXNativeTarget "POCtvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B227CEFD28D8E4EC002CCD14 /* Debug */,
+				B227CEFE28D8E4EC002CCD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B227CEFF28D8E4EC002CCD14 /* Build configuration list for PBXNativeTarget "POCtvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B227CF0028D8E4EC002CCD14 /* Debug */,
+				B227CF0128D8E4EC002CCD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B227CF0228D8E4EC002CCD14 /* Build configuration list for PBXNativeTarget "POCtvOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B227CF0328D8E4EC002CCD14 /* Debug */,
+				B227CF0428D8E4EC002CCD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B227CED028D8E4EA002CCD14 /* Project object */;
+}

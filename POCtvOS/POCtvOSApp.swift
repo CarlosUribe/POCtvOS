@@ -2,7 +2,7 @@
 //  POCtvOSApp.swift
 //  POCtvOS
 //
-//  Created by Carlos Uribe on 19/09/22.
+//  Created by Carlos Uribe.
 //
 
 import SwiftUI
